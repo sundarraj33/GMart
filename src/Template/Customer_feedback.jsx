@@ -72,9 +72,9 @@ const Customer_feedback = () => {
           {data.map((item, i) => (
             <div key={i} className="w-1/1 sm:w-1/3 flex-shrink-0">
 
-              <div className="feedback_section_box bg-white m-4 rounded-md shadow-lg p-2 text-center">
+              <div className="feedback_section_box1 bg-white m-4 rounded-md shadow-lg p-2 text-center hover:bg-green-200 cursor-pointer">
 
-                <div className="border p-4">
+                <div className=" p-4">
 
                   <div className="flex justify-center">
                     <img src={item.img} className="w-32 h-32 rounded-full border-2 border-green-500 m-4" />

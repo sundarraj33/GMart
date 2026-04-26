@@ -9,7 +9,7 @@ const Slider1 = ()=>{
         <>       
         <img src={leaf1} className="w-32 h-16 rotate-[-20deg] absolute sm:right-10 m-2 pl-12 sm:pl-14"></img>
         <img src={leaf2} className="w-32 h-16 rotate-[-40deg] absolute right-[10%] top-[50%] sm:left-[30%] sm:top-[75%] m-2 pl-12 sm:pl-14"></img>
-        <div className="slider_wrapper w-full sm:w-[80%] m-auto  h-[100vh] sm:h-[70vh] lg:h-[80vh] overflow-hidden bg-green-50 sm:grid sm:grid-cols-4 ">                      
+        <div className="slider_wrapper w-full sm:w-[80%] m-auto  h-[100vh] sm:h-[70vh] lg:h-[80vh] overflow-hidden bg-green-50 sm:grid sm:grid-cols-4 relative z-0">
             <div className="slider_wrapper_left col-span-2 flex justify-center flex-col items-center sm:items-start">
                 <p className="slider_head text-lg bg-orange-100 flex text-orange-900 w-fit p-2 rounded-full text-left m-2" style={{"text-shadow":"2px 2px 10px #ff8b38"}}>Take New Experience...</p>                
                 <motion.div
